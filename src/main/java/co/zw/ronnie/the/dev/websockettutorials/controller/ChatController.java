@@ -21,4 +21,6 @@ public class ChatController {
         simpMessageHeaderAccessor.getSessionAttributes().put("username", messageChat.getSender());
         return  messageChat;
     }
+
+
 }
